@@ -180,19 +180,29 @@ div {
 
 .places {
   margin: 92px 0;
+}
+
+.places__content {
   display: flex;
   flex-direction: column;
-  row-gap: 80px;
+  gap: 80px;
 }
 
 .place {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas:
-    "title website"
-    "image paragraph";
-  column-gap: 40px;
-  row-gap: 48px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.place__row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.place__column {
+  width: calc((100% - 40px) / 2);
 }
 
 .place__title {
@@ -238,7 +248,6 @@ div {
   padding-bottom: 100%;
   background-size: cover;
   background-position: center;
-  grid-area: image;
 }
 
 .place__image_kosa {
@@ -383,14 +392,6 @@ div {
     padding: 0;
   }
 
-  .place {
-    flex-direction: column;
-  }
-  .place {
-    width: 100%;
-    margin-bottom: 60px;
-  }
-
   .footer {
     padding-bottom: 24px;
   }
@@ -411,14 +412,6 @@ div {
 
   .intro.content-wrap-wide {
     padding: 0;
-  }
-
-  .place {
-    flex-direction: column;
-  }
-  .place {
-    width: 100%;
-    margin-bottom: 60px;
   }
 
   .footer {
@@ -462,17 +455,5 @@ div {
   .intro__text {
     font-size: 16px;
     line-height: 163%;
-  }
-
-  .place {
-    flex-direction: column;
-  }
-  .place {
-    width: 100%;
-    margin-bottom: 60px;
-  }
-
-  .place__image {
-    padding: 0;
   }
 }
