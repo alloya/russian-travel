@@ -1,0 +1,17 @@
+.header__lang-item {
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+  max-width: 30px;
+  height: 28px;
+}
+
+@media (max-width: 736px) {
+  .header__lang-item {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+.photo-grid__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+  padding: 0 48px;
+}
+
+@media (max-width: 736px) {
+  .photo-grid__container {
+    gap: 12px;
+  }
+}

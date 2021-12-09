@@ -1,0 +1,13 @@
+.places__content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 0 148px;
+}
+
+@media (max-width: 736px) {
+  .places__content {
+    gap: 50px;
+    padding: 0;
+  }
+}

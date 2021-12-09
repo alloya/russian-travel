@@ -1,0 +1,22 @@
+.cover__container {
+  background-image: url("../../../../images/cover-trains.jpg");
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: content-box;
+  padding: 245px 0;
+  display: flex;
+  position: relative;
+}
+
+.cover__container:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 736px) {
+  .cover__container {
+    padding: 33px 0;
+  }
+}

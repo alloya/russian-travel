@@ -1,0 +1,12 @@
+.place {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+@media (max-width: 736px) {
+  .place {
+    gap: 32px;
+  }
+}

@@ -1,0 +1,11 @@
+.cover__text {
+  margin: auto;
+  text-align: center;
+  z-index: 2;
+}
+
+@media (max-width: 736px) {
+  .cover__text {
+    padding: 0 16px;
+  }
+}

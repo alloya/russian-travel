@@ -1,0 +1,15 @@
+.place__column {
+  width: calc((100% - 40px) / 2);
+}
+
+@media (max-width: 736px) {
+  .place__column {
+    width: calc((100% - 32px) / 2);
+  }
+}
+
+@media (max-width: 736px) {
+  .place__column {
+    width: 100%;
+  }
+}

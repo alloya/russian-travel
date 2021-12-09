@@ -1,0 +1,13 @@
+.header__container {
+  padding: 28px 48px 0;
+  max-height: 48px;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+@media (max-width: 736px) {
+  .header__container {
+    padding: 16px 16px 0;
+  }
+}
