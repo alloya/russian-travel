@@ -2,15 +2,22 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 106%;
   /* or 106% */
   max-width: 560px;
   margin: 0 0 32px;
 }
 
-@media (max-width: 736px) {
+@media (max-width: 600px) {
+  .cover__title {
+    font-size: 54px;
+    margin: 0 0 16px;
+  }
+}
+
+@media (max-width: 450px) {
   .cover__title {
     font-size: 32px;
-    line-height: 35px;
+    margin: 0 0 16px;
   }
 }
