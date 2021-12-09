@@ -1,3 +1,9 @@
 .place__left-column {
   width: calc((100% - 64px) / 2);
 }
+
+@media (max-width: 1068px) {
+  .place__left-column {
+    width: calc((100% - 48px) / 2);
+  }
+}

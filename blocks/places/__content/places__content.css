@@ -5,6 +5,12 @@
   padding: 0 148px;
 }
 
+@media (max-width: 1068px) {
+  .places__content {
+    padding: 0 48px;
+  }
+}
+
 @media (max-width: 736px) {
   .places__content {
     gap: 50px;

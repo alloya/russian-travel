@@ -15,6 +15,12 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 1068px) {
+  .cover__container {
+    padding: 195px 0;
+  }
+}
+
 @media (max-width: 736px) {
   .cover__container {
     padding: 33px 0;

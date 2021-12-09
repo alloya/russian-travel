@@ -2,6 +2,12 @@
   padding: 0 148px;
 }
 
+@media (max-width: 1068px) {
+  .intro__container {
+    padding: 0 48px;
+  }
+}
+
 @media (max-width: 736px) {
   .intro__container {
   }
