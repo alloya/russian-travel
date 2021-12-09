@@ -5,6 +5,12 @@
   padding: 0 48px;
 }
 
+@media (max-width: 900px) {
+  .photo-grid__container {
+    padding: 0 24px;
+  }
+}
+
 @media (max-width: 736px) {
   .photo-grid__container {
     gap: 12px;

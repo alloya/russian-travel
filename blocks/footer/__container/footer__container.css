@@ -6,6 +6,12 @@
   padding: 0 48px 24px;
 }
 
+@media (max-width: 900px) {
+  .footer__container {
+    padding: 0 24px 24px;
+  }
+}
+
 @media (max-width: 736px) {
   .footer__container {
     flex-direction: column;

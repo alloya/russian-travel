@@ -8,7 +8,14 @@
   }
 }
 
+@media (max-width: 900px) {
+  .intro__container {
+    padding: 0 24px;
+  }
+}
+
 @media (max-width: 736px) {
   .intro__container {
+    padding: 0 16px;
   }
 }

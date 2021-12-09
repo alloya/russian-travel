@@ -4,8 +4,9 @@
   gap: 92px;
 }
 
-@media (max-width: 1068px) {
+@media (max-width: 900px) {
   .main {
+    gap: 88px;
   }
 }
 

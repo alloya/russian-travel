@@ -21,6 +21,12 @@
   }
 }
 
+@media (max-width: 900px) {
+  .cover__container {
+    padding: 115px 0;
+  }
+}
+
 @media (max-width: 736px) {
   .cover__container {
     padding: 33px 0;

@@ -11,6 +11,13 @@
   }
 }
 
+@media (max-width: 900px) {
+  .places__content {
+    padding: 0 24px;
+    gap: 75px;
+  }
+}
+
 @media (max-width: 736px) {
   .places__content {
     gap: 50px;

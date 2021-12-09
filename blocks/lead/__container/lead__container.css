@@ -10,8 +10,11 @@
   }
 }
 
-@media (max-width: 736px) {
+@media (max-width: 900px) {
   .lead__container {
     padding: 0;
   }
+}
+
+@media (max-width: 736px) {
 }
