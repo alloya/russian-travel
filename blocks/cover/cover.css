@@ -7,3 +7,10 @@
     padding: 0;
   }
 }
+
+@media (max-width: 736px) {
+  .cover {
+    padding: 0;
+    margin-top: 5px;
+  }
+}

@@ -13,6 +13,7 @@
 
 @media (max-width: 736px) {
   .photo-grid__container {
+    padding: 0 16px;
     gap: 12px;
   }
 }
