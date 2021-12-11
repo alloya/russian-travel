@@ -79,40 +79,6 @@
     gap: 12px;
   }
 
-  .places__content {
-    gap: 50px;
-    padding: 0;
-  }
-
-  .place {
-    gap: 32px;
-  }
-
-  .place__column {
-    width: 100%;
-  }
-
-  .place__row {
-    flex-direction: column;
-  }
-
-  .place__title {
-    font-size: 32px;
-    line-height: 35px;
-    padding: 0 16px;
-  }
-
-  .place__website {
-    margin-top: 32px;
-    padding: 0 16px;
-  }
-
-  .place__paragraph {
-    font-size: 16px;
-    row-gap: 25px;
-    padding: 32px 16px 0;
-  }
-
   .footer__container {
     flex-direction: column;
     margin-top: 64px;

@@ -6,7 +6,6 @@
 
 @media (max-width: 736px) {
   .place__website {
-    margin-top: 32px;
     padding: 0 16px;
   }
 }
