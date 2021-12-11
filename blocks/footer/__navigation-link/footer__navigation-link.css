@@ -7,6 +7,10 @@
   line-height: 18px;
 }
 
+.footer__navigation-link:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 736px) {
   .footer__navigation-link {
     font-size: 24px;
