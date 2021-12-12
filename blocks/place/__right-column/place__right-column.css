@@ -1,9 +1,0 @@
-.place__right-column {
-  max-width: calc((100% - 16px) / 2);
-}
-
-@media (max-width: 736px) {
-  .place__right-column {
-    max-width: 100%;
-  }
-}

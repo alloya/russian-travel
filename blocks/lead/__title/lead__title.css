@@ -15,12 +15,6 @@
   }
 }
 
-@media (max-width: 820px) {
-  .lead__title {
-    font-size: 72px;
-  }
-}
-
 @media (max-width: 736px) {
   .lead__title {
     font-size: 60px;

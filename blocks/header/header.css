@@ -1,4 +1,4 @@
-.header__container {
+.header {
   padding: 28px 48px 0;
   max-height: 52px;
   display: flex;
@@ -7,13 +7,13 @@
 }
 
 @media (max-width: 900px) {
-  .header__container {
+  .header {
     padding: 28px 24px 0;
   }
 }
 
 @media (max-width: 736px) {
-  .header__container {
+  .header {
     padding: 16px 16px 0;
   }
 }
