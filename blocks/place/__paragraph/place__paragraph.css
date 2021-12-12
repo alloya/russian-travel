@@ -12,7 +12,6 @@
 @media (max-width: 900px) {
   .place__paragraph {
     font-size: 16px;
-    row-gap: 25px;
   }
 }
 
